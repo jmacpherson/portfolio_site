@@ -458,7 +458,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Exo, Armata "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1131,22 +1131,23 @@ body {
   margin-top: 20px;
 }
 
-.large-9 h1, .large-9 p {
-  margin-left: 10px;
-}
+/*.large-9 h1, .large-9 p {*/
+  /*margin-left: 10px;*/
+/*}*/
 
-#logo-space img {
-  margin-left: 15%;
-}
+/*#logo-space img {*/
+  /*margin-left: 15%;*/
+/*}*/
 
 ul {
-  padding: 0 20px;
+  padding: 0;
   /*margin: 10px 20%;*/
 }
 
 ul li {
   list-style: none;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 ul li a {
@@ -1162,4 +1163,13 @@ a:hover {
 .large-10 img {
   margin: 20px 70px;
   border: 1px solid gray;
+}
+
+#banner h1 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+#banner p {
+  margin: 10px 0;
 }
